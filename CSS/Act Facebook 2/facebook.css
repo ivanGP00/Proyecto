@@ -1,0 +1,122 @@
+body{
+    box-sizing: border-box;
+    margin: 50px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+/*-------------------NAV-----------------*/
+
+nav{
+    display: flex;
+}
+
+.logo img{
+    width: 60px;
+}
+
+
+.opciones a{
+    text-decoration: none;
+    color: black;
+}
+
+.opciones li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.boton{
+    background-color: rgb(246, 246, 246);
+    border-radius: 5px;
+    padding: 15px;
+    height: 20px;
+    margin-left: 800px;
+}
+
+.boton img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.boton a{
+    text-decoration: none;
+    color: #3B5A9C;
+}
+
+.boton:hover{
+    background-color: aqua;
+}
+
+/*-------------------Section-facebook-----------------*/
+
+.article-facebook h1{
+    color: #3B5A9C;
+    font-size: 100px;
+    margin-bottom: 0;
+    margin-top: 80px;
+}
+
+.article-facebook p{
+    line-height: 30px;
+}
+
+.article-facebook-img img{
+    width: 200px;
+    position: absolute;
+    left: 60%;
+    bottom: 30%;
+}
+
+/*-------------------Boton download-app del main-----------------*/
+
+
+.download-app p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.download-app a{
+    background-color: #3B5A9C;
+    border-radius: 5px;
+    padding: 15px;
+    height: 20px;
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+
+}
+
+.download-app img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+/*-------------------footer-----------------*/
+
+
+footer{
+    margin-top: 100px;
+}
+
+footer img{
+    width: 30px;
+}
+
+footer ul{
+    padding: 0;
+}
+
+footer li{
+    list-style: none;
+    display: inline-block; 
+    margin-right: 17px;   
+}
+
+
+
+
+

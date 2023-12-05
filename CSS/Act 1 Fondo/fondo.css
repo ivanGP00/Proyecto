@@ -1,0 +1,13 @@
+body{
+    background: purple;
+    background: url(./img/6d8841b6-9d24-457a-95c5-0d3de1d7bf5f.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: brown;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}

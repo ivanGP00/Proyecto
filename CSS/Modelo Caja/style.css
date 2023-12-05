@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.caja{
+    background-color: blue;
+    margin: 30px 600px;
+    padding: 30px;
+    border: 10px dotted red;
+    width: 300px;
+    color: white;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 23px;
+}
+
+.caja p{
+    background-color: greenyellow;
+}

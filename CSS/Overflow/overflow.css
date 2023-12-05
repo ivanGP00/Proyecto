@@ -1,0 +1,26 @@
+div.scroll{
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+    overflow: scroll;
+}
+
+div.hidden{
+    background-color: greenyellow;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+div.auto{
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    overflow: auto;
+}
+div.visible{
+    background-color: burlywood;
+    width: 150px;
+    height: 150px;
+    overflow: visible;
+}

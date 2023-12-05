@@ -1,0 +1,42 @@
+div{
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: ejemplo;
+    animation-duration: 10s;
+    animation-delay: 0s;
+    animation-timing-function: ease-in;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+/* @keyframes ejemplo{
+top:100px;left:100px;mes ejemplo{
+    from{
+        top: 0;
+        background-color: red;
+    }to{
+        top: 200px;
+        background-color: greenyellow;
+    }
+} */
+
+@keyframes ejemplo{
+    0%{background-color: purple;
+    top: 0; left: 0;}
+
+    25%{background-color: red;
+    top: 0;left: 200px;}
+
+    50%{
+        background-color: green;
+        top:200px;left:200px;
+    }
+
+    70%{background-color: blue;
+    top: 200px;left: 0;}
+
+    100%{background-color: orange; 
+        top: 0; left: 0;}
+}

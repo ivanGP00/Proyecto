@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+
+body{
+    font-family:"Skranji";
+}
+
+p{
+    text-align: justify;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    line-height: 25px;
+
+}
+
+h1{
+    background-color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+span{
+    font-size: 2rem;
+}
+
+.container{
+    background-color: rgb(183, 180, 180);
+}
+
+/*
+Unidades Relativas
+px-pixeles
+%-porcentaje
+em-relativa al tamaño de fuente que tenga su elemento padre o su elemento mas cercano.
+rem-relativa al tamaño de fuente especificada en el body.
+*/
+

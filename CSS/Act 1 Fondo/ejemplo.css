@@ -1,0 +1,29 @@
+*{
+    margin: 30px;
+}
+
+h1{
+    color: red;
+}
+
+p{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.ejemplo{
+    color: blue;
+}
+
+div p span{
+    color: orange;
+    font-size: 30px;
+}
+
+div p #morado{
+    color: lawngreen;
+}
+
+#parrafo{
+    color: pink;
+}

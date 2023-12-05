@@ -1,0 +1,60 @@
+body{
+    background: url(/CSS/Botones/img/rodolfo-puchulu-jGfIzudYK_Q-unsplash.jpg);
+font-family: 'Times New Roman', Times, serif;
+}
+
+div{
+    margin: 25px;
+}
+
+.btn{
+    background: rgb(116, 23, 23);
+    color: beige;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.small{
+    font-size: 12px;
+    padding: 10px 15px;
+}
+
+.medium{
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+.big{
+    font-size: 18px;
+    padding: 10px 25px;
+}
+
+.extra-big{
+    font-size: 21px;
+    padding: 10px 30px;
+}
+
+.verde{
+    background-color: rgb(46, 183, 46);
+}
+
+.azul{
+    background-color: rgb(26, 124, 222);
+}
+
+.naranja{
+    background-color: orange;
+}
+
+.border-radius{
+    border-radius: 75px;
+}
+
+.btn:hover{
+    opacity: .6;
+    color: black;
+}
+

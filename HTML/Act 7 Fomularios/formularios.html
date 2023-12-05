@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    
+    <div> <!--Este contenedor va a contener todo el sitio web -->
+        <section class="teoria">
+            <h2>Formularios en HTML</h2>
+            <p>El objetivo de los formularios en HTML es crear la comunicación o iteractividad con mi usuario final.</p>
+            <div class="etiquetas">
+                <ul>
+                    <li> input:Se usa para crear controles interactivos con la finalidad de recibir datos del usuario. </li>
+                    <ol>    
+                        <h2>Atributos</h2>
+                        <li>type: Tipo de informacion que quieres recibir para poder interpretarla como tal. PJ. Text, Number, Password, email,etc. </li>
+                        <li>Placeholder: Podemos guiar al usuario escribiendo la instruccion o la informacion que tiene que poner. </li>
+                        <li>maxlength: Largo maximo de carateres que va a admitir el input. </li>
+                        <li>Required: Hace obligatorio al input al que se lo asignes, volviendo al input faltante. (Validación sencilla) </li>
+                        <li>name: Es para identificar los input en archivos como php. </li>
+                        <li>id: Sirve para darle un valor como identificador unico. </li>
+                        <li>for: Me da pie a que empiecen a escribir en el input seleccionado. </li>
+                    </ol>
+                </ul>
+            </div>
+        </section>
+
+        <section class="form">
+            <form>
+                <label for="nombre">Inserta tu nombre<br>
+                <input type="text" placeholder="Inserta nombre" maxlength="25" required name="nombre" id="nombre">
+                </label>
+                <br><br>
+
+                <label for="email">Inserta Tu Correo<br>
+                <input type="email" placeholder="Inserta Email" required id="email">
+                </label>
+                <br><br>
+
+                <input type="password" placeholder="Inserta Password" id="pass">   
+                <br><br>
+
+                <label for="terminos"> Terminos y Condiciones
+                <input type="checkbox" name="terminos" id="terminos">
+                </label> <br>
+                <label for="terminos1">Politicas de Privacidad
+                <input type="checkbox" name="terminos" id="terminos1">
+                </label><br>
+                
+                <label for="hombre"> Hombre
+                <input type="radio" name="genero" value="Hombre" id="hombre">
+                </label>
+                <label for="mujer"> Mujer
+                <input type="radio" name="genero" value="Mujer" id="mujer">
+                </label>
+                <label for="otro"> Otro
+                <input type="radio" name="genero" value="Otro" id="otro">
+                </label><br><br>
+
+                <label for="comentario"> Dejanos tu Comentario <br>
+                <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+                </label><br><br>
+
+                <label for="pais">Ingresa tu pais <br>
+                    <select name="pais" id="pais" required>
+                        <option value="">---</option>
+                        <option value="México">México</option>
+                        <option value="Estados Unidos">Estados Unidos</option>
+                        <option value="España">España</option>
+                    </select>
+                </label>
+
+
+
+                <br><br>
+
+                
+
+                <input type="submit" value="Enviar">
+                
+        
+        </form>
+    </section>
+
+
+
+
+
+
+    </div>
+
+</body>
+</html>

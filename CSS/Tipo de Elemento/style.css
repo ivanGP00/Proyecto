@@ -1,0 +1,26 @@
+/*El elemento tipo "inline" no se le pueden dar las propiedades de margin, border, altura porque solo abarcan el espacio que necesitan.
+Ej: a,span,br,script,strong,input,label,button,textarea,select...etc...
+
+Elementos de tipo "block" abarcan el 100% del espacio a menos que se le den propiedades para ajustarlos, no se puede poner un elemento a lado de otro por defecto como los "inline"
+Ej: div, article, section, header, footer, aside, table, p, ul, ol, h1-h6, etc...
+*/
+
+body{
+    background-color: #9a9a9a;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, p, div{
+    background-color: #ccc;
+    display: inline-block;
+}
+
+a{
+    color: white;
+    background-color: black;
+    display: inline-block;
+    padding: 10px;
+    height: 30px;
+    border-radius: 20px;
+    text-decoration: none;
+}

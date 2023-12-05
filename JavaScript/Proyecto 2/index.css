@@ -1,0 +1,303 @@
+/*IVAN - ANDREA - JULIO*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Lora:wght@600&family=Martian+Mono:wght@300&family=Nunito&family=Raleway:ital,wght@1,300&family=Vina+Sans&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(206, 206, 206);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div{
+    margin: 0px;
+    text-align: left;
+}
+
+.div-titulo{
+    font-family: "Vina Sans";
+    font-size: 25px;
+    display: flex;
+    background-color: #9d9a9a; 
+    border: 3px rgb(94, 94, 94) solid; 
+    border-radius: 10px;
+}
+
+.div-titulo .logo-marca img{
+    width: 100px;
+    height: 120px;
+}
+
+.div-titulo ul{
+    display: flex;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.menu ul a{
+    text-decoration: none;
+}   
+
+.div-titulo .menu ul li a img{
+    width: 50px;
+}
+
+.menu{
+    justify-content: space-between;
+}
+
+/*--------------PRODUCTOS------------*/
+
+.productos{
+    background-color: white;
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+    border-radius: 50px;
+    justify-content: space-between;
+    margin-top: 30px;
+    border: 3px solid green;
+}
+
+.tenis{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    grid-row-gap: 30px;
+    width: 100%;
+    transition: .3s;
+}
+
+.productos .producto1 img{
+    width: 200px;
+}
+.productos .producto1{
+    padding: 10px;
+    border: 2px solid black ;
+    margin-left: 10px;
+
+}
+.producto2 img{
+    width: 200px;
+}
+.producto2{
+    padding: 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+.producto3 img{
+    width: 200px;
+}
+.producto3{
+    padding: 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+.producto4 img{
+    width: 200px;
+    margin-top: 45px;
+}
+.producto4{
+    padding: 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+.producto5 img{
+    margin-top: 25px;
+    padding: 10px;
+    width: 200px;
+}
+.producto5{
+    padding: 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+
+.producto6 img{
+    padding: 10px;
+    width: 200px;
+}
+.producto6{
+    padding: 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+.producto7 img{
+    padding: 10px;
+    width: 200px;
+}
+.producto7{
+    padding: 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+.producto8 img{
+    padding: 10px;
+    width: 200px;
+}
+.producto8{
+    padding: 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+.producto9 img{
+    padding: 10px;
+    width: 200px;
+}
+.producto9{
+    padding: 10px;
+    border: 2px solid black;
+    margin-left: 10px;
+}
+
+.productos .tenis a{
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 5px;
+}
+.productos .tenis a:hover{
+    background-color: gainsboro;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.menu ul a:hover {
+    color: red; 
+}
+
+
+
+/*CARRITO DE COMPRAS*/
+
+.carritocompras {
+    border: 2px solid #333;
+    border-radius: 10px;
+    max-width: 300px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.titulocarrito {
+    text-align: center;
+    background-color: #3498db;
+    padding: 10px 0;
+    color: #fff;
+    border-radius: 8px;
+}
+
+.contenido-carrito {
+    margin-top: 15px;
+}
+
+.total {
+    margin-top: 10px;
+}
+
+.botones {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+.btn-vaciar{
+    margin-top: 10px; 
+}
+
+/*FOOTER*/
+
+.footer {
+    color: black;
+    padding: 20px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.redes-sociales {
+    margin-bottom: 10px;
+}
+
+.redes-sociales a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.redes-sociales img {
+    width: 30px;
+    height: 30px;
+}
+
+/*Responsivo*/
+
+@media only screen and (max-width: 600px) {
+    .div-titulo {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .menu ul li {
+        margin-left: 5px;
+        margin-top: 2px;
+    }
+
+    .div-titulo .logo-marca img {
+        width: 80px;
+        height: 100px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .div-titulo {
+        padding: 8px;
+    }
+
+    .menu ul li {
+        margin-left: 8px;
+        margin-top: 4px;
+    }
+
+    .div-titulo .logo-marca img {
+        width: 100px;
+        height: 120px;
+    }
+
+}
+
+
+
